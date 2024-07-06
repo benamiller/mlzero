@@ -105,3 +105,20 @@
   margin-top: 10px;
   margin-bottom: 10px; /* Add bottom margin for spacing */
 }
+
+.timeline {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+.timeline-item {
+  display: none;
+}
+.visible {
+  display: block;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
