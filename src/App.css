@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px;
 }
 
 .App-link {
@@ -31,8 +32,25 @@
   text-decoration: none; /* Remove underline */
 }
 .App-link:hover {
-  color: #ffffff; /* Change color on hover */
-  text-decoration: underline; /* Add underline on hover */
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.App-link:visited {
+  color: #61dafb;
+}
+
+.App-link:active {
+  color: #61dafb;
+}
+
+.course-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
 }
 
 @keyframes App-logo-spin {

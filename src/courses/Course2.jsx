@@ -1,13 +1,11 @@
 import React from 'react';
 
-
-const Course1 = () => {
-
+function Course2() {
     return (
         <div>
-            Hello
+            <h1>Course 2</h1>
         </div>
     );
-};
+}
 
-export default Course1;
+export default Course2;

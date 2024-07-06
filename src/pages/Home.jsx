@@ -21,7 +21,7 @@ function Home() {
       <div className="courses-container">
         {courses.map(course => (
           <div key={course.id} className={`course-card ${selectedCourse === course.id ? 'expanded' : ''}`} onClick={() => toggleCourse(course.id)}>
-            <h2>{course.name}</h2>
+            <h2 className="course-name">{course.name}</h2>
             {selectedCourse === course.id && (
               <div className="course-details">
                 <p>{course.description}</p>
